@@ -1,0 +1,26 @@
+[project]
+name = "M1_Coursework"
+version = "0.1.0"
+description = "Coursework notebooks for M1 - MPhil in DIS - University of Cambridge - Jacob Tutt"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Jacob Tutt", email = "jacobtutt@icloud.com" }
+]
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.21",
+    "tensorflow>=2.8",
+    "matplotlib>=3.3",
+    "pandas>=1.3",
+    "tabulate>=0.8",
+    "scikit-learn>=0.24",
+    "optuna>=2.9",
+    "joblib>=1.0",
+    "jupyter",
+    "ipykernel"
+]
+
+[project.urls]
+"Source" = "https://github.com/JacobTutt/Coursework_M1"
