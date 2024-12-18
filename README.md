@@ -54,8 +54,8 @@ Please find the projects report under `Report` directory
 ### Declaration of Use of Autogeneration Tools
 This report made use of Large Language Models (LLMs), primarily ChatGPT and Co-Pilot, to
 assist in the development of the project. These tools have been employed for:
-• Formatting plots to enhance presentation quality.
-• Performing iterative changes to already defined code.
-• Debugging code and identifying issues in implementation.
-• Helping with Latex formatting for the report.
-• Identifying grammar and punctuation inconsistencies within the report.
+- Formatting plots to enhance presentation quality.
+- Performing iterative changes to already defined code.
+- Debugging code and identifying issues in implementation.
+- Helping with Latex formatting for the report.
+- Identifying grammar and punctuation inconsistencies within the report.
