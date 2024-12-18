@@ -13,7 +13,8 @@ To run the notebooks, please follow these steps:
 Clone the repository from the remote repository (GitLab) to your local machine.
 
 ```bash
-git clone <URL>
+git clone https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/assessments/m1_coursework/jlt67.git
+cd jlt67
 ```
 
 ### 2. Create a Fresh Virtual Environment
