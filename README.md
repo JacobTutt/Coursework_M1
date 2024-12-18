@@ -25,11 +25,11 @@ source env/bin/activate   # For macOS/Linux
 env\Scripts\activate      # For Windows
 ```
 
-### 3. Install the Package and Dependencies
-Navigate to the repository’s root directory and install the package along with its dependencies:
+### 3. Install the dependencies
+Navigate to the repository’s root directory and install the package dependencies:
 ```bash
 cd jlt67
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### 4. Set Up a Jupyter Notebook Kernel
