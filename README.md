@@ -1,6 +1,6 @@
-# M1 Coursework Repository
+# MNIST Machine Learning Classification
 
-This repository contains a seperate notebooks for each part of the coursework.
+This repository implements and presents the accuracy of various machine learning approaches. Specifically in the classification of a dataset generated from MNIST images, where two digits are vertically stacked (56x28) and labeled by the sum of the constituent digits. It first evaluates the performance of a fully connected neural network before comparing it to the alternative methods, each with relative strengths and weaknesses in handling the highly-dimensional dataset.
 
 ---
 
@@ -10,11 +10,10 @@ To run the notebooks, please follow these steps:
 
 ### 1. Clone the Repository
 
-Clone the repository from the remote repository (GitLab) to your local machine.
+Clone the repository from the remote repository to your local machine.
 
 ```bash
-git clone https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/assessments/m1_coursework/jlt67.git
-cd jlt67
+git clone https://github.com/JacobTutt/ML_mnist.git
 ```
 
 ### 2. Create a Fresh Virtual Environment
@@ -28,34 +27,23 @@ env\Scripts\activate      # For Windows
 ### 3. Install the dependencies
 Navigate to the repository’s root directory and install the package dependencies:
 ```bash
-cd jlt67
 pip install -r requirements.txt
 ```
 
 ### 4. Set Up a Jupyter Notebook Kernel
 To ensure the virtual environment is recognised within Jupyter notebooks, set up a kernel:
 ```bash
-python -m ipykernel install --user --name=env --display-name "Python (M1 Coursework)"
+python -m ipykernel install --user --name=env --display-name "MNIST ML"
 ```
 
 ### 5. Run the Notebooks
-Open the notebooks and select the created kernel **(Python(M1 Coursework))** to run the code.
+Open the notebooks and select the created kernel **(MNIST ML)** to run the code.
 
-
-
-## For Assessment
+---
 
 ### Saved results
 Results for the built models are saved in the `Results` directory for reproducability of results
 
 ### Report
-Please find the projects report under `Report` directory
+Please find a report analysing and justifying each approaches preformance in the `report` directory
 
-### Declaration of Use of Autogeneration Tools
-This report made use of Large Language Models (LLMs), primarily ChatGPT and Co-Pilot, to
-assist in the development of the project. These tools have been employed for:
-- Formatting plots to enhance presentation quality.
-- Performing iterative changes to already defined code.
-- Debugging code and identifying issues in implementation.
-- Helping with Latex formatting for the report.
-- Identifying grammar and punctuation inconsistencies within the report.
